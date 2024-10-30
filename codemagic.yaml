@@ -1,0 +1,8 @@
+workflows:
+  android-workflow:
+    name: Android Build
+    environment:
+      java: 11.0
+    scripts:
+      - name: Build Android
+        script: ./gradlew assembleDebug
